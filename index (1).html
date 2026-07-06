@@ -1,0 +1,420 @@
+<!-- ========================= -->
+<!-- PENGALAMAN SELAMA SATU TAHUN -->
+<!-- ========================= -->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ten-AKL</title>
+
+<style>
+
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, sans-serif;
+    color:white;
+    background:linear-gradient(135deg,#0D47A1,#1565C0,#1976D2,#42A5F5);
+    background-size:400% 400%;
+    animation:backgroundBiru 10s ease infinite;
+}
+
+@keyframes backgroundBiru{
+    0%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0% 50%;}
+}
+
+</style>
+<style>
+
+/* ========================= */
+/* BACKGROUND BIRU ANIMASI */
+/* ========================= */
+
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    overflow-x:hidden;
+
+    background:linear-gradient(-45deg,
+    #001845,
+    #003566,
+    #00509d,
+    #1976d2,
+    #42a5f5);
+
+    background-size:400% 400%;
+    animation:bgMove 12s ease infinite;
+}
+
+@keyframes bgMove{
+    0%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0% 50%;}
+}
+
+/* ========================= */
+/* NAVBAR GLASS */
+/* ========================= */
+
+header{
+    position:fixed;
+    top:0;
+    width:100%;
+    padding:18px 40px;
+    background:rgba(255,255,255,.08);
+    backdrop-filter:blur(12px);
+    box-shadow:0 5px 20px rgba(0,0,0,.3);
+    z-index:999;
+}
+
+/* ========================= */
+/* CARD GLASS */
+/* ========================= */
+
+.card,
+.stat{
+    background:rgba(255,255,255,.15);
+    border-radius:20px;
+    padding:25px;
+    backdrop-filter:blur(15px);
+    box-shadow:0 10px 25px rgba(0,0,0,.3);
+    transition:.4s;
+}
+
+/* Hover Card */
+
+.card:hover,
+.stat:hover{
+    transform:translateY(-10px) scale(1.02);
+    box-shadow:0 15px 35px rgba(0,0,0,.4);
+}
+
+/* ========================= */
+/* TOMBOL */
+/* ========================= */
+
+.btn{
+    display:inline-block;
+    padding:15px 35px;
+    background:white;
+    color:#00509d;
+    text-decoration:none;
+    border-radius:50px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#FFD700;
+    transform:scale(1.08);
+    box-shadow:0 0 30px gold;
+}
+
+/* ========================= */
+/* ANIMASI MUNCUL */
+/* ========================= */
+
+.fade{
+    animation:fadeUp 1s ease;
+}
+
+@keyframes fadeUp{
+
+from{
+opacity:0;
+transform:translateY(40px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
+
+/* ========================= */
+/* BUBBLE */
+/* ========================= */
+
+.bubble{
+position:fixed;
+bottom:-120px;
+border-radius:50%;
+background:rgba(255,255,255,.15);
+animation:naik 18s linear infinite;
+z-index:-1;
+}
+
+@keyframes naik{
+
+0%{
+transform:translateY(0);
+}
+
+100%{
+transform:translateY(-120vh);
+}
+
+}
+
+/* ========================= */
+/* BINTANG */
+/* ========================= */
+
+.star{
+position:fixed;
+width:4px;
+height:4px;
+background:white;
+border-radius:50%;
+animation:blink 2s infinite;
+z-index:-1;
+}
+
+@keyframes blink{
+
+0%{opacity:.2;}
+50%{opacity:1;}
+100%{opacity:.2;}
+
+}
+
+</style>
+<div class="bubble" style="left:5%;width:60px;height:60px;"></div>
+<div class="bubble" style="left:20%;width:35px;height:35px;animation-duration:15s;"></div>
+<div class="bubble" style="left:45%;width:80px;height:80px;animation-duration:20s;"></div>
+<div class="bubble" style="left:70%;width:45px;height:45px;animation-duration:18s;"></div>
+<div class="bubble" style="left:90%;width:70px;height:70px;animation-duration:24s;"></div>
+
+<div class="star" style="top:10%;left:20%;"></div>
+<div class="star" style="top:25%;left:80%;"></div>
+<div class="star" style="top:40%;left:55%;"></div>
+<div class="star" style="top:70%;left:15%;"></div>
+<div class="star" style="top:85%;left:65%;"></div>
+
+</head>
+<section id="tentang">
+
+<h2>Pengalaman Selama Satu Tahun Di Kelas 10</h2>
+
+<div class="card">
+
+<p>
+selama satu tahun kami di kelas ini, kami banyak
+mempelajari hal-hal yang baru dan guru-guru kamipun
+mengajari kami dengan sangat sabar dan tidak pernah
+marah-marahi kami karena ada seorang guru berkata bahwa
+sekolah adalah tempat untuk belajar, maka dari itu jika
+salah itu adalah hal yang sangat wajar dan bisa di perbaiki.
+lalu ada seorang guru mengajari kami tentang perikatan sosial
+bahwa kita semua adalah satu keluarga, maka dari itu harus
+saling mendukung dan menguatkan.dari pengalaman itulah kami
+menjadi pelajar yang baik di kelas 10
+</p>
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- WALI KELAS -->
+<!-- ========================= -->
+
+<section id="wali">
+
+<h2>Wali Kelas</h2>
+
+<div class="card" style="text-align:center;">
+
+<h1>👩‍🏫 Bu Nael</h1>
+
+<p>Wali Kelas 10 SMK Rahmani</p>
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- DAFTAR MURID -->
+<!-- ========================= -->
+
+<section id="murid">
+
+<h2>Daftar Murid</h2>
+
+<div class="card list">
+
+<p>👤 Caroline.Shu</p>
+
+<p>👤 Cheryl.Audy</p>
+
+<p>👤 Christopher.Benediktus</p>
+
+<p>👤 Devin.Kurniawan</p>
+
+<p>👤 Fiorentina.Winata</p>
+
+<p>👤 Grace.Alta.Maruni</p>
+
+<p>👤 Gabriela.Ester</p>
+
+<p>👤 Ilona.Syarif</p>
+
+<p>👤 Jonathan.Rafael</p>
+
+<p>👤 Lionel.Andersen</p>
+
+<p>👤 Marvin.Luther.Chandra</p>
+
+<p>👤 F.Nino.Natael.Jari.Jawa</p>
+
+<p>👤 Natasya.Febri.Meilani</p>
+
+<p>👤 Steven.Wijaya</p>
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- MOTTO -->
+<!-- ========================= -->
+
+<section>
+
+<h2>Motto Kelas Kami</h2>
+
+<div class="card">
+
+<h2 style="color:#FFD700;">
+"Belajar Bareng, Berkarya Bareng, Sukses Bareng."
+</h2>
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- PENGUMUMAN -->
+<!-- ========================= -->
+
+<section>
+
+<h2>📢 Pengumuman</h2>
+
+<div class="card">
+
+<p>
+Selamat datang di Website Resmi Kelas 10 SMK Rahmani.
+Semoga website ini menjadi tempat yang bermanfaat,
+kenangan, dan kebersamaan seluruh siswa.
+</p>
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- KEGIATAN -->
+<!-- ========================= -->
+
+<section>
+
+<h2>Kegiatan Kelas</h2>
+
+<div class="statistik">
+
+<div class="card">
+<h3>📚 Belajar Bersama</h3>
+<p>Belajar setiap hari dengan semangat.</p>
+</div>
+
+<div class="card">
+<h3>✨️ OSIS</h3>
+<p>Melakukan susunan acara kegiatan serius tapi santai.</p>
+</div>
+
+<div class="card">
+<h3>🖥🎾 Ekstrakulikuler Komputer Dan Olahraga</h3>
+<p>Di lakukan untuk melatih skill yang kita miliki.</p>
+</div>
+
+</div>
+<div class="card">
+<h3>🎉 Class Meeting</h3>
+<p>Kegiatan setelah ujian bersama seluruh siswa.</p>
+</div>
+
+<div class="card">
+<h3>🏕 Pramuka</h3>
+<p>Membangun kerja sama dan kedisiplinan.</p>
+</div>
+
+<div class="card">
+<h3>🎂 Perayaan Ulang Tahun</h3>
+<p>Merayakan momen spesial bersama teman-teman.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- FOOTER -->
+<!-- ========================= -->
+
+<footer id="kontak">
+
+<h2>Ten-AKL</h2>
+
+<p>👩‍🏫 Wali Kelas : Bu Nael</p>
+
+<p>👨‍🎓 Jumlah Murid : 14 Orang</p>
+
+<p>© 2026 Ten-AKL</p>
+
+<p style="margin-top:10px;">
+Made with 👉 by Steven.Wijaya
+</p>
+
+</footer>
+
+<script>
+
+const cards=document.querySelectorAll(".card");
+
+window.addEventListener("scroll",()=>{
+
+cards.forEach(card=>{
+
+const top=card.getBoundingClientRect().top;
+
+if(top<window.innerHeight-100){
+
+card.style.opacity="1";
+card.style.transform="translateY(0)";
+
+}
+
+});
+
+});
+
+cards.forEach(card=>{
+
+card.style.opacity="0";
+
+card.style.transform="translateY(40px)";
+
+card.style.transition=".8s";
+
+});
+
+</script>
+
+</body>
+
+</html>
